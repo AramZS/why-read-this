@@ -40,6 +40,15 @@ function get_url($base_url, $file, $vars, $headers = array('Api-User-Agent: Exam
 
 }
 
+function get_string_between($string, $start, $end){
+    $string = " ".$string;
+    $ini = strpos($string,$start);
+    if ($ini == 0) return "";
+    $ini += strlen($start);
+    $len = strpos($string,$end,$ini) - $ini;
+    return substr($string,$ini,$len);
+}
+
 function get_wikidata_url($query_array){
 
     #https://www.wikidata.org/w/api.php?action=help&modules=query
@@ -230,7 +239,13 @@ if (false != $do_they ) {
     #$vars = 'action=wbgetentities&sites=frwiki&titles=France&languages=zh-hans|zh-hant|fr&props=sitelinks|labels|aliases|descriptions&format=json';
     $s = get_wikipedia_url($vars);
     $j = does_it_json($s); 
-    var_dump($j);
+    foreach($j->query->pages as $page){
+        $rs = $page->revisions;
+        $array_key = "*";
+        $string = $rs[0]->$array_key;
+        var_dump(get_string_between($string, '==Plot==', '=='));
+    }
+    #var_dump(get_string_between($j->query->pages->1->revisions, '==Plot==', '=='));
 }
 
 die();
