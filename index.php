@@ -61,11 +61,12 @@ function get_wikidata_url($query_array){
 $file = file_get_contents('small_metadata.json');
 
 #var_dump($file);
+function does_it_json($file){
 $obj_file = json_decode($file);
-#var_dump($array_file);
-/**    switch (json_last_error()) {
+ #var_dump($array_file);
+    switch (json_last_error()) {
         case JSON_ERROR_NONE:
-            echo ' - No errors';
+            #echo ' - No errors';
         break;
         case JSON_ERROR_DEPTH:
             echo ' - Maximum stack depth exceeded';
@@ -86,8 +87,11 @@ $obj_file = json_decode($file);
             echo ' - Unknown error';
         break;
     }
+    return $obj_file;
+}
 
-**/
+$obj_file = does_it_json($file);
+
 $url = 'https://wdq.wmflabs.org/';
 $file = 'api';
 $vars = array(
@@ -97,8 +101,73 @@ $vars = array(
             'format' => 'json'
             );
 #$vars = 'action=wbgetentities&sites=frwiki&titles=France&languages=zh-hans|zh-hant|fr&props=sitelinks|labels|aliases|descriptions&format=json';
-var_dump(get_wikidata_url($vars)); die();
+$s = get_wikidata_url($vars);
+$j = does_it_json($s);
+var_dump($j); 
 
+function get_wiki_data_obj($vars){
+    $vars['format'] = 'json';
+    #$vars = 'action=wbgetentities&sites=frwiki&titles=France&languages=zh-hans|zh-hant|fr&props=sitelinks|labels|aliases|descriptions&format=json';
+    $s = get_wikidata_url($vars);
+    $j = does_it_json($s);
+    return $j;
+}
+
+function wb_authors_finder($obj){
+    if (isset($obj->entities->Q174596->claims->P50)){
+        $author = $obj->entities->Q174596->claims->P50;
+        $author = $author[0];
+        $id_holder = 'numeric-id';
+        $id = $author->mainsnak->datavalue->value->$id_holder;
+        $id = 'Q'.$id;
+        $sarray = array(
+                'action' => 'wbgetentities',
+                'ids' => $id#Q4985#'Q174596'#$r->id
+            );
+        $author_object = get_wiki_data_obj($sarray);
+        $author_aliases = $author_object->entities->$id->aliases->en;
+        return $author_aliases;
+        #var_dump($author_object->entities->$id->aliases->en); die();
+    } else {
+        return false;
+    }
+}
+
+function check_author_aliases_against($authors_obj, $author){
+    foreach ($authors_obj as $obj) {
+        var_dump($obj->value);
+        var_dump('Checking: '.$author);
+        $author_is = $obj->value;
+        if ( $author == $author_is){
+            return true;
+        }
+    }
+    return false;
+}
+
+function do_results_have_author($json_as_obj, $check_author = "Hermann Melville"){
+    foreach ($json_as_obj->search as $r){
+        $sarray = array(
+                'action' => 'wbgetentities',
+                'ids' => 'Q174596'#Q4985#'Q174596'#$r->id
+            );
+
+        $obj = get_wiki_data_obj($sarray);
+        $author = $obj->entities->Q174596->claims->P50;
+        $author = $author[0];
+        $id_holder = 'numeric-id';
+        $authors = wb_authors_finder($obj); 
+        if (check_author_aliases_against($authors, $check_author)){
+            var_dump('Q174596');
+        }
+        die();
+        #P50 = author
+    }
+}
+
+do_results_have_author($j);
+
+die();
 foreach ($obj_file->files as $book) {
     ?><p><?php
     echo $book->title;
