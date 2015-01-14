@@ -58,6 +58,16 @@ function get_wikidata_url($query_array){
     return $r;
 }
 
+function get_wikipedia_url($query_array){
+
+    #https://www.wikidata.org/w/api.php?action=help&modules=query
+    $base_url = "http://en.wikipedia.org/";
+    $file = "w/api.php";
+    $query = $query_array;
+    $r = get_url($base_url,$file,$query,'','POST');
+    return $r;
+}
+
 $file = file_get_contents('small_metadata.json');
 
 #var_dump($file);
@@ -163,7 +173,7 @@ function do_results_have_author($json_as_obj, $check_author = "Hermann Melville"
             $id_holder = 'numeric-id';
             $authors = wb_authors_finder($obj, $id_obj); 
             if (!empty($authors) && check_author_aliases_against($authors, $check_author)){
-                var_dump($r->id); die();#'Q174596');
+                return $r->id;#'Q174596');
             }
         }
         
@@ -187,14 +197,40 @@ $continue = 0;
 $vars['continue'] = $continue;
     $s = get_wikidata_url($vars);
     $j = does_it_json($s);
-    $do_they_again = do_results_have_author($j);
-while (!$do_they_again && !empty($j->search)) {
+    $do_they = do_results_have_author($j);
+while (!$do_they && !empty($j->search)) {
     $vars['search'] = str_replace(' ', '-', $vars['search']);
     $continue += 7;
     $vars['continue'] = $continue;
     $s = get_wikidata_url($vars);
     $j = does_it_json($s);
-    $do_they_again = do_results_have_author($j);
+    $do_they = do_results_have_author($j);
+}
+var_dump($do_they);
+if (false != $do_they ) {
+    $vars = array(
+            'action' => 'wbgetentities',
+            'ids' => $do_they,
+            'format' => 'json'
+            );
+    #Fun fact P18 is title images!
+    #$vars = 'action=wbgetentities&sites=frwiki&titles=France&languages=zh-hans|zh-hant|fr&props=sitelinks|labels|aliases|descriptions&format=json';
+    $s = get_wikidata_url($vars);
+    $j = does_it_json($s);
+    var_dump($j->entities->$do_they->sitelinks->enwiki->title);
+    $vars = array(
+            'action' => 'query',
+            'titles' => $j->entities->$do_they->sitelinks->enwiki->title,
+            'format' => 'json',
+            'prop'   => 'revisions',
+            'rvprop' => 'content',
+            #'rawcontinue' => ''
+            );
+    #Fun fact P18 is title images!
+    #$vars = 'action=wbgetentities&sites=frwiki&titles=France&languages=zh-hans|zh-hant|fr&props=sitelinks|labels|aliases|descriptions&format=json';
+    $s = get_wikipedia_url($vars);
+    $j = does_it_json($s); 
+    var_dump($j);
 }
 
 die();

@@ -1,0 +1,2983 @@
+object(stdClass)#525 (2) {
+  ["entities"]=>
+  object(stdClass)#524 (1) {
+    ["Q174596"]=>
+    object(stdClass)#523 (12) {
+      ["pageid"]=>
+      int(174517)
+      ["ns"]=>
+      int(0)
+      ["title"]=>
+      string(7) "Q174596"
+      ["lastrevid"]=>
+      int(181648372)
+      ["modified"]=>
+      string(20) "2014-12-16T22:41:31Z"
+      ["id"]=>
+      string(7) "Q174596"
+      ["type"]=>
+      string(4) "item"
+      ["aliases"]=>
+      object(stdClass)#231 (24) {
+        ["zh"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#255 (2) {
+            ["language"]=>
+            string(2) "zh"
+            ["value"]=>
+            string(9) "ç„¡æ¯”æ•µ"
+          }
+        }
+        ["fr"]=>
+        array(3) {
+          [0]=>
+          object(stdClass)#256 (2) {
+            ["language"]=>
+            string(2) "fr"
+            ["value"]=>
+            string(9) "Moby-Dick"
+          }
+          [1]=>
+          object(stdClass)#257 (2) {
+            ["language"]=>
+            string(2) "fr"
+            ["value"]=>
+            string(8) "Mobidick"
+          }
+          [2]=>
+          object(stdClass)#258 (2) {
+            ["language"]=>
+            string(2) "fr"
+            ["value"]=>
+            string(24) "Moby-Dick ou le Cachalot"
+          }
+        }
+        ["ko"]=>
+        array(2) {
+          [0]=>
+          object(stdClass)#259 (2) {
+            ["language"]=>
+            string(2) "ko"
+            ["value"]=>
+            string(6) "ë°±ê²½"
+          }
+          [1]=>
+          object(stdClass)#250 (2) {
+            ["language"]=>
+            string(2) "ko"
+            ["value"]=>
+            string(9) "ëª¨ë¹„ë”•"
+          }
+        }
+        ["es"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#251 (2) {
+            ["language"]=>
+            string(2) "es"
+            ["value"]=>
+            string(11) "Moby - Dick"
+          }
+        }
+        ["it"]=>
+        array(2) {
+          [0]=>
+          object(stdClass)#252 (2) {
+            ["language"]=>
+            string(2) "it"
+            ["value"]=>
+            string(9) "Moby-Dick"
+          }
+          [1]=>
+          object(stdClass)#253 (2) {
+            ["language"]=>
+            string(2) "it"
+            ["value"]=>
+            string(8) "Quequeeg"
+          }
+        }
+        ["de"]=>
+        array(2) {
+          [0]=>
+          object(stdClass)#254 (2) {
+            ["language"]=>
+            string(2) "de"
+            ["value"]=>
+            string(9) "Moby Dick"
+          }
+          [1]=>
+          object(stdClass)#245 (2) {
+            ["language"]=>
+            string(2) "de"
+            ["value"]=>
+            string(14) "Der weiÃŸe Wal"
+          }
+        }
+        ["id"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#246 (2) {
+            ["language"]=>
+            string(2) "id"
+            ["value"]=>
+            string(9) "Moby Dick"
+          }
+        }
+        ["ml"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#247 (2) {
+            ["language"]=>
+            string(2) "ml"
+            ["value"]=>
+            string(9) "Moby-Dick"
+          }
+        }
+        ["bn"]=>
+        array(11) {
+          [0]=>
+          object(stdClass)#248 (2) {
+            ["language"]=>
+            string(2) "bn"
+            ["value"]=>
+            string(19) "à¦®à¦¬à¦¿ à¦¡à¦¿à¦•"
+          }
+          [1]=>
+          object(stdClass)#249 (2) {
+            ["language"]=>
+            string(2) "bn"
+            ["value"]=>
+            string(15) "Call me Ishmael"
+          }
+          [2]=>
+          object(stdClass)#240 (2) {
+            ["language"]=>
+            string(2) "bn"
+            ["value"]=>
+            string(8) "Fedallah"
+          }
+          [3]=>
+          object(stdClass)#241 (2) {
+            ["language"]=>
+            string(2) "bn"
+            ["value"]=>
+            string(9) "Moby dick"
+          }
+          [4]=>
+          object(stdClass)#242 (2) {
+            ["language"]=>
+            string(2) "bn"
+            ["value"]=>
+            string(24) "Moby Dick; or, The Whale"
+          }
+          [5]=>
+          object(stdClass)#243 (2) {
+            ["language"]=>
+            string(2) "bn"
+            ["value"]=>
+            string(9) "Moby-dick"
+          }
+          [6]=>
+          object(stdClass)#244 (2) {
+            ["language"]=>
+            string(2) "bn"
+            ["value"]=>
+            string(8) "Tashtego"
+          }
+          [7]=>
+          object(stdClass)#235 (2) {
+            ["language"]=>
+            string(2) "bn"
+            ["value"]=>
+            string(8) "MobyDick"
+          }
+          [8]=>
+          object(stdClass)#236 (2) {
+            ["language"]=>
+            string(2) "bn"
+            ["value"]=>
+            string(5) "Dagoo"
+          }
+          [9]=>
+          object(stdClass)#237 (2) {
+            ["language"]=>
+            string(2) "bn"
+            ["value"]=>
+            string(8) "Starbuck"
+          }
+          [10]=>
+          object(stdClass)#238 (2) {
+            ["language"]=>
+            string(2) "bn"
+            ["value"]=>
+            string(4) "Ahab"
+          }
+        }
+        ["ja"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#239 (2) {
+            ["language"]=>
+            string(2) "ja"
+            ["value"]=>
+            string(21) "ãƒ¢ãƒ“ãƒ¼ãƒ‡ã‚£ãƒƒã‚¯"
+          }
+        }
+        ["vi"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#232 (2) {
+            ["language"]=>
+            string(2) "vi"
+            ["value"]=>
+            string(9) "Moby-Dick"
+          }
+        }
+        ["sv"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#233 (2) {
+            ["language"]=>
+            string(2) "sv"
+            ["value"]=>
+            string(11) "Kapten Ahab"
+          }
+        }
+        ["nl"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#234 (2) {
+            ["language"]=>
+            string(2) "nl"
+            ["value"]=>
+            string(9) "Moby Dick"
+          }
+        }
+        ["pt"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#105 (2) {
+            ["language"]=>
+            string(2) "pt"
+            ["value"]=>
+            string(9) "Moby-Dick"
+          }
+        }
+        ["eo"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#113 (2) {
+            ["language"]=>
+            string(2) "eo"
+            ["value"]=>
+            string(9) "Moby Dick"
+          }
+        }
+        ["sk"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#190 (2) {
+            ["language"]=>
+            string(2) "sk"
+            ["value"]=>
+            string(9) "Moby Dick"
+          }
+        }
+        ["ro"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#408 (2) {
+            ["language"]=>
+            string(2) "ro"
+            ["value"]=>
+            string(9) "Moby-Dick"
+          }
+        }
+        ["th"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#470 (2) {
+            ["language"]=>
+            string(2) "th"
+            ["value"]=>
+            string(22) "à¹‚à¸¡à¸šà¸µ-à¸”à¸´à¸"
+          }
+        }
+        ["fi"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#469 (2) {
+            ["language"]=>
+            string(2) "fi"
+            ["value"]=>
+            string(9) "Moby-Dick"
+          }
+        }
+        ["be-tarask"]=>
+        array(2) {
+          [0]=>
+          object(stdClass)#468 (2) {
+            ["language"]=>
+            string(9) "be-tarask"
+            ["value"]=>
+            string(9) "Moby-Dick"
+          }
+          [1]=>
+          object(stdClass)#467 (2) {
+            ["language"]=>
+            string(9) "be-tarask"
+            ["value"]=>
+            string(9) "Moby Dick"
+          }
+        }
+        ["cs"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#466 (2) {
+            ["language"]=>
+            string(2) "cs"
+            ["value"]=>
+            string(9) "Moby Dick"
+          }
+        }
+        ["fa"]=>
+        array(2) {
+          [0]=>
+          object(stdClass)#465 (2) {
+            ["language"]=>
+            string(2) "fa"
+            ["value"]=>
+            string(15) "Ù…ÙˆØ¨ÛŒ Ø¯ÛŒÚ©"
+          }
+          [1]=>
+          object(stdClass)#464 (2) {
+            ["language"]=>
+            string(2) "fa"
+            ["value"]=>
+            string(15) "ÙˆØ§Ù„ Ø³ÙÛŒØ¯"
+          }
+        }
+        ["lt"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#463 (2) {
+            ["language"]=>
+            string(2) "lt"
+            ["value"]=>
+            string(9) "Moby-Dick"
+          }
+        }
+        ["en"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#462 (2) {
+            ["language"]=>
+            string(2) "en"
+            ["value"]=>
+            string(24) "Moby-Dick; or, The Whale"
+          }
+        }
+      }
+      ["labels"]=>
+      object(stdClass)#461 (67) {
+        ["zh-hans"]=>
+        object(stdClass)#460 (2) {
+          ["language"]=>
+          string(7) "zh-hans"
+          ["value"]=>
+          string(9) "ç™½é²¸è®°"
+        }
+        ["zh-hant"]=>
+        object(stdClass)#459 (2) {
+          ["language"]=>
+          string(7) "zh-hant"
+          ["value"]=>
+          string(9) "ç™½é¯¨è¨˜"
+        }
+        ["zh-hk"]=>
+        object(stdClass)#458 (2) {
+          ["language"]=>
+          string(5) "zh-hk"
+          ["value"]=>
+          string(9) "ç™½é¯¨è¨˜"
+        }
+        ["zh-cn"]=>
+        object(stdClass)#457 (2) {
+          ["language"]=>
+          string(5) "zh-cn"
+          ["value"]=>
+          string(9) "ç™½é²¸è®°"
+        }
+        ["zh-sg"]=>
+        object(stdClass)#456 (2) {
+          ["language"]=>
+          string(5) "zh-sg"
+          ["value"]=>
+          string(9) "ç™½é²¸è®°"
+        }
+        ["zh-tw"]=>
+        object(stdClass)#455 (2) {
+          ["language"]=>
+          string(5) "zh-tw"
+          ["value"]=>
+          string(9) "ç™½é¯¨è¨˜"
+        }
+        ["jv"]=>
+        object(stdClass)#454 (2) {
+          ["language"]=>
+          string(2) "jv"
+          ["value"]=>
+          string(9) "Moby-Dick"
+        }
+        ["pl"]=>
+        object(stdClass)#453 (2) {
+          ["language"]=>
+          string(2) "pl"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["fr"]=>
+        object(stdClass)#452 (2) {
+          ["language"]=>
+          string(2) "fr"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["ko"]=>
+        object(stdClass)#451 (2) {
+          ["language"]=>
+          string(2) "ko"
+          ["value"]=>
+          string(10) "ëª¨ë¹„ ë”•"
+        }
+        ["he"]=>
+        object(stdClass)#450 (2) {
+          ["language"]=>
+          string(2) "he"
+          ["value"]=>
+          string(15) "×ž×•×‘×™ ×“×™×§"
+        }
+        ["be"]=>
+        object(stdClass)#449 (2) {
+          ["language"]=>
+          string(2) "be"
+          ["value"]=>
+          string(17) "ÐœÐ¾Ð±Ñ– Ð”Ð·Ñ–Ðº"
+        }
+        ["es"]=>
+        object(stdClass)#448 (2) {
+          ["language"]=>
+          string(2) "es"
+          ["value"]=>
+          string(9) "Moby-Dick"
+        }
+        ["oc"]=>
+        object(stdClass)#447 (2) {
+          ["language"]=>
+          string(2) "oc"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["it"]=>
+        object(stdClass)#446 (2) {
+          ["language"]=>
+          string(2) "it"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["gl"]=>
+        object(stdClass)#445 (2) {
+          ["language"]=>
+          string(2) "gl"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["et"]=>
+        object(stdClass)#444 (2) {
+          ["language"]=>
+          string(2) "et"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["de"]=>
+        object(stdClass)#443 (2) {
+          ["language"]=>
+          string(2) "de"
+          ["value"]=>
+          string(9) "Moby-Dick"
+        }
+        ["id"]=>
+        object(stdClass)#442 (2) {
+          ["language"]=>
+          string(2) "id"
+          ["value"]=>
+          string(9) "Moby-Dick"
+        }
+        ["ml"]=>
+        object(stdClass)#441 (2) {
+          ["language"]=>
+          string(2) "ml"
+          ["value"]=>
+          string(31) "à´®àµŠà´¬à´¿ à´¡à´¿à´•àµà´•àµ"
+        }
+        ["bn"]=>
+        object(stdClass)#440 (2) {
+          ["language"]=>
+          string(2) "bn"
+          ["value"]=>
+          string(22) "à¦®à§‹à¦¬à¦¿ à¦¡à¦¿à¦•"
+        }
+        ["ja"]=>
+        object(stdClass)#439 (2) {
+          ["language"]=>
+          string(2) "ja"
+          ["value"]=>
+          string(6) "ç™½é¯¨"
+        }
+        ["sq"]=>
+        object(stdClass)#438 (2) {
+          ["language"]=>
+          string(2) "sq"
+          ["value"]=>
+          string(9) "Moby-Dick"
+        }
+        ["vi"]=>
+        object(stdClass)#437 (2) {
+          ["language"]=>
+          string(2) "vi"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["en"]=>
+        object(stdClass)#436 (2) {
+          ["language"]=>
+          string(2) "en"
+          ["value"]=>
+          string(9) "Moby-Dick"
+        }
+        ["ar"]=>
+        object(stdClass)#435 (2) {
+          ["language"]=>
+          string(2) "ar"
+          ["value"]=>
+          string(15) "Ù…ÙˆØ¨ÙŠ Ø¯ÙŠÙƒ"
+        }
+        ["sv"]=>
+        object(stdClass)#434 (2) {
+          ["language"]=>
+          string(2) "sv"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["nl"]=>
+        object(stdClass)#433 (2) {
+          ["language"]=>
+          string(2) "nl"
+          ["value"]=>
+          string(9) "Moby-Dick"
+        }
+        ["pt"]=>
+        object(stdClass)#432 (2) {
+          ["language"]=>
+          string(2) "pt"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["eo"]=>
+        object(stdClass)#431 (2) {
+          ["language"]=>
+          string(2) "eo"
+          ["value"]=>
+          string(9) "Moby-Dick"
+        }
+        ["xmf"]=>
+        object(stdClass)#430 (2) {
+          ["language"]=>
+          string(3) "xmf"
+          ["value"]=>
+          string(25) "áƒ›áƒáƒ‘áƒ˜ áƒ“áƒ˜áƒ™áƒ˜"
+        }
+        ["sk"]=>
+        object(stdClass)#429 (2) {
+          ["language"]=>
+          string(2) "sk"
+          ["value"]=>
+          string(14) "Biela veÄ¾ryba"
+        }
+        ["ru"]=>
+        object(stdClass)#428 (2) {
+          ["language"]=>
+          string(2) "ru"
+          ["value"]=>
+          string(15) "ÐœÐ¾Ð±Ð¸ Ð”Ð¸Ðº"
+        }
+        ["sr-el"]=>
+        object(stdClass)#427 (2) {
+          ["language"]=>
+          string(5) "sr-el"
+          ["value"]=>
+          string(8) "Mobi Dik"
+        }
+        ["sr-ec"]=>
+        object(stdClass)#426 (2) {
+          ["language"]=>
+          string(5) "sr-ec"
+          ["value"]=>
+          string(15) "ÐœÐ¾Ð±Ð¸ Ð”Ð¸Ðº"
+        }
+        ["tr"]=>
+        object(stdClass)#425 (2) {
+          ["language"]=>
+          string(2) "tr"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["ro"]=>
+        object(stdClass)#424 (2) {
+          ["language"]=>
+          string(2) "ro"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["th"]=>
+        object(stdClass)#423 (2) {
+          ["language"]=>
+          string(2) "th"
+          ["value"]=>
+          string(21) "à¹‚à¸¡à¸šà¸´à¸”à¸´à¸"
+        }
+        ["ca"]=>
+        object(stdClass)#422 (2) {
+          ["language"]=>
+          string(2) "ca"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["fi"]=>
+        object(stdClass)#421 (2) {
+          ["language"]=>
+          string(2) "fi"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["uk"]=>
+        object(stdClass)#420 (2) {
+          ["language"]=>
+          string(2) "uk"
+          ["value"]=>
+          string(15) "ÐœÐ¾Ð±Ñ– Ð”Ñ–Ðº"
+        }
+        ["be-tarask"]=>
+        object(stdClass)#419 (2) {
+          ["language"]=>
+          string(9) "be-tarask"
+          ["value"]=>
+          string(15) "ÐœÐ¾Ð±Ñ– Ð”Ñ‹Ðº"
+        }
+        ["la"]=>
+        object(stdClass)#418 (2) {
+          ["language"]=>
+          string(2) "la"
+          ["value"]=>
+          string(9) "Moby-Dick"
+        }
+        ["si"]=>
+        object(stdClass)#417 (2) {
+          ["language"]=>
+          string(2) "si"
+          ["value"]=>
+          string(25) "à¶¸à·œà¶¶à·’-à¶©à·’à¶šà·Š"
+        }
+        ["cs"]=>
+        object(stdClass)#416 (2) {
+          ["language"]=>
+          string(2) "cs"
+          ["value"]=>
+          string(14) "BÃ­lÃ¡ velryba"
+        }
+        ["bg"]=>
+        object(stdClass)#415 (2) {
+          ["language"]=>
+          string(2) "bg"
+          ["value"]=>
+          string(15) "ÐœÐ¾Ð±Ð¸ Ð”Ð¸Ðº"
+        }
+        ["fa"]=>
+        object(stdClass)#414 (2) {
+          ["language"]=>
+          string(2) "fa"
+          ["value"]=>
+          string(17) "Ù…ÙˆØ¨ÛŒâ€ŒØ¯ÛŒÚ©"
+        }
+        ["lt"]=>
+        object(stdClass)#413 (2) {
+          ["language"]=>
+          string(2) "lt"
+          ["value"]=>
+          string(11) "Mobis Dikas"
+        }
+        ["an"]=>
+        object(stdClass)#412 (2) {
+          ["language"]=>
+          string(2) "an"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["da"]=>
+        object(stdClass)#411 (2) {
+          ["language"]=>
+          string(2) "da"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["de-ch"]=>
+        object(stdClass)#410 (2) {
+          ["language"]=>
+          string(5) "de-ch"
+          ["value"]=>
+          string(9) "Moby-Dick"
+        }
+        ["en-ca"]=>
+        object(stdClass)#409 (2) {
+          ["language"]=>
+          string(5) "en-ca"
+          ["value"]=>
+          string(9) "Moby-Dick"
+        }
+        ["en-gb"]=>
+        object(stdClass)#230 (2) {
+          ["language"]=>
+          string(5) "en-gb"
+          ["value"]=>
+          string(9) "Moby-Dick"
+        }
+        ["hu"]=>
+        object(stdClass)#399 (2) {
+          ["language"]=>
+          string(2) "hu"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["pt-br"]=>
+        object(stdClass)#403 (2) {
+          ["language"]=>
+          string(5) "pt-br"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["sr"]=>
+        object(stdClass)#404 (2) {
+          ["language"]=>
+          string(2) "sr"
+          ["value"]=>
+          string(15) "ÐœÐ¾Ð±Ð¸ Ð”Ð¸Ðº"
+        }
+        ["zh"]=>
+        object(stdClass)#405 (2) {
+          ["language"]=>
+          string(2) "zh"
+          ["value"]=>
+          string(9) "ç™½é¯¨è¨˜"
+        }
+        ["lv"]=>
+        object(stdClass)#406 (2) {
+          ["language"]=>
+          string(2) "lv"
+          ["value"]=>
+          string(11) "Mobijs Diks"
+        }
+        ["tl"]=>
+        object(stdClass)#407 (2) {
+          ["language"]=>
+          string(2) "tl"
+          ["value"]=>
+          string(9) "Moby-Dick"
+        }
+        ["pa"]=>
+        object(stdClass)#400 (2) {
+          ["language"]=>
+          string(2) "pa"
+          ["value"]=>
+          string(25) "à¨®à©‹à¨¬à©€ à¨¡à¨¿à©±à¨•"
+        }
+        ["nb"]=>
+        object(stdClass)#401 (2) {
+          ["language"]=>
+          string(2) "nb"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["war"]=>
+        object(stdClass)#402 (2) {
+          ["language"]=>
+          string(3) "war"
+          ["value"]=>
+          string(9) "Moby-Dick"
+        }
+        ["eu"]=>
+        object(stdClass)#391 (2) {
+          ["language"]=>
+          string(2) "eu"
+          ["value"]=>
+          string(9) "Moby-Dick"
+        }
+        ["nn"]=>
+        object(stdClass)#394 (2) {
+          ["language"]=>
+          string(2) "nn"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["sh"]=>
+        object(stdClass)#395 (2) {
+          ["language"]=>
+          string(2) "sh"
+          ["value"]=>
+          string(9) "Moby-Dick"
+        }
+        ["bs"]=>
+        object(stdClass)#396 (2) {
+          ["language"]=>
+          string(2) "bs"
+          ["value"]=>
+          string(9) "Moby Dick"
+        }
+        ["yue"]=>
+        object(stdClass)#397 (2) {
+          ["language"]=>
+          string(3) "yue"
+          ["value"]=>
+          string(9) "ç„¡æ¯”æ•µ"
+        }
+      }
+      ["descriptions"]=>
+      object(stdClass)#398 (7) {
+        ["it"]=>
+        object(stdClass)#392 (2) {
+          ["language"]=>
+          string(2) "it"
+          ["value"]=>
+          string(34) "romanzo scritto da Herman Melville"
+        }
+        ["en"]=>
+        object(stdClass)#393 (2) {
+          ["language"]=>
+          string(2) "en"
+          ["value"]=>
+          string(24) "novel by Herman Melville"
+        }
+        ["nl"]=>
+        object(stdClass)#388 (2) {
+          ["language"]=>
+          string(2) "nl"
+          ["value"]=>
+          string(4) "boek"
+        }
+        ["ru"]=>
+        object(stdClass)#389 (2) {
+          ["language"]=>
+          string(2) "ru"
+          ["value"]=>
+          string(40) "Ñ€Ð¾Ð¼Ð°Ð½ Ð“ÐµÑ€Ð¼Ð°Ð½Ð° ÐœÐµÐ»Ð²Ð¸Ð»Ð°"
+        }
+        ["de"]=>
+        object(stdClass)#390 (2) {
+          ["language"]=>
+          string(2) "de"
+          ["value"]=>
+          string(24) "Buch von Herman Melville"
+        }
+        ["fr"]=>
+        object(stdClass)#377 (2) {
+          ["language"]=>
+          string(2) "fr"
+          ["value"]=>
+          string(47) "roman de l'Ã©crivain amÃ©ricain Herman Melville"
+        }
+        ["es"]=>
+        object(stdClass)#380 (2) {
+          ["language"]=>
+          string(2) "es"
+          ["value"]=>
+          string(10) "personajes"
+        }
+      }
+      ["claims"]=>
+      object(stdClass)#381 (16) {
+        ["P50"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#385 (5) {
+            ["id"]=>
+            string(44) "q174596$2351E9A7-BB43-4DFA-AD9B-7F68C859FFF9"
+            ["mainsnak"]=>
+            object(stdClass)#386 (4) {
+              ["snaktype"]=>
+              string(5) "value"
+              ["property"]=>
+              string(3) "P50"
+              ["datatype"]=>
+              string(13) "wikibase-item"
+              ["datavalue"]=>
+              object(stdClass)#387 (2) {
+                ["value"]=>
+                object(stdClass)#382 (2) {
+                  ["entity-type"]=>
+                  string(4) "item"
+                  ["numeric-id"]=>
+                  int(4985)
+                }
+                ["type"]=>
+                string(17) "wikibase-entityid"
+              }
+            }
+            ["type"]=>
+            string(9) "statement"
+            ["rank"]=>
+            string(6) "normal"
+            ["references"]=>
+            array(5) {
+              [0]=>
+              object(stdClass)#383 (3) {
+                ["hash"]=>
+                string(40) "f70116eac7f49194478b3025330bfd8dcffa3c69"
+                ["snaks"]=>
+                object(stdClass)#384 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#378 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#379 (2) {
+                        ["value"]=>
+                        object(stdClass)#373 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(8447)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+              [1]=>
+              object(stdClass)#374 (3) {
+                ["hash"]=>
+                string(40) "7eb64cf9621d34c54fd4bd040ed4b61a88c4a1a0"
+                ["snaks"]=>
+                object(stdClass)#375 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#376 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#365 (2) {
+                        ["value"]=>
+                        object(stdClass)#368 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(328)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+              [2]=>
+              object(stdClass)#369 (3) {
+                ["hash"]=>
+                string(40) "3a986a5890d9cca1839ac8eedb28df110ef2a1b2"
+                ["snaks"]=>
+                object(stdClass)#370 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#371 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#372 (2) {
+                        ["value"]=>
+                        object(stdClass)#366 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(11921)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+              [3]=>
+              object(stdClass)#367 (3) {
+                ["hash"]=>
+                string(40) "50f57a3dbac4708ce4ae4a827c0afac7fcdb4a5c"
+                ["snaks"]=>
+                object(stdClass)#357 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#360 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#361 (2) {
+                        ["value"]=>
+                        object(stdClass)#362 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(11920)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+              [4]=>
+              object(stdClass)#363 (3) {
+                ["hash"]=>
+                string(40) "47e5c39012d85adb21c5d29a46cfa3d069ac3b7f"
+                ["snaks"]=>
+                object(stdClass)#364 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#358 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#359 (2) {
+                        ["value"]=>
+                        object(stdClass)#349 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(177837)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+            }
+          }
+        }
+        ["P373"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#352 (4) {
+            ["id"]=>
+            string(44) "q174596$F0C58DFB-CA32-4C2E-981B-06996451343E"
+            ["mainsnak"]=>
+            object(stdClass)#353 (4) {
+              ["snaktype"]=>
+              string(5) "value"
+              ["property"]=>
+              string(4) "P373"
+              ["datatype"]=>
+              string(6) "string"
+              ["datavalue"]=>
+              object(stdClass)#354 (2) {
+                ["value"]=>
+                string(9) "Moby Dick"
+                ["type"]=>
+                string(6) "string"
+              }
+            }
+            ["type"]=>
+            string(9) "statement"
+            ["rank"]=>
+            string(6) "normal"
+          }
+        }
+        ["P31"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#355 (5) {
+            ["id"]=>
+            string(44) "Q174596$765FC72C-5BE2-454A-84FA-93F6290334C4"
+            ["mainsnak"]=>
+            object(stdClass)#356 (4) {
+              ["snaktype"]=>
+              string(5) "value"
+              ["property"]=>
+              string(3) "P31"
+              ["datatype"]=>
+              string(13) "wikibase-item"
+              ["datavalue"]=>
+              object(stdClass)#350 (2) {
+                ["value"]=>
+                object(stdClass)#351 (2) {
+                  ["entity-type"]=>
+                  string(4) "item"
+                  ["numeric-id"]=>
+                  int(571)
+                }
+                ["type"]=>
+                string(17) "wikibase-entityid"
+              }
+            }
+            ["type"]=>
+            string(9) "statement"
+            ["rank"]=>
+            string(6) "normal"
+            ["references"]=>
+            array(1) {
+              [0]=>
+              object(stdClass)#345 (3) {
+                ["hash"]=>
+                string(40) "7eb64cf9621d34c54fd4bd040ed4b61a88c4a1a0"
+                ["snaks"]=>
+                object(stdClass)#346 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#347 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#348 (2) {
+                        ["value"]=>
+                        object(stdClass)#336 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(328)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+            }
+          }
+        }
+        ["P364"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#340 (5) {
+            ["id"]=>
+            string(44) "q174596$ecb562af-4cc4-c6e8-01f5-98042cac93ed"
+            ["mainsnak"]=>
+            object(stdClass)#341 (4) {
+              ["snaktype"]=>
+              string(5) "value"
+              ["property"]=>
+              string(4) "P364"
+              ["datatype"]=>
+              string(13) "wikibase-item"
+              ["datavalue"]=>
+              object(stdClass)#342 (2) {
+                ["value"]=>
+                object(stdClass)#343 (2) {
+                  ["entity-type"]=>
+                  string(4) "item"
+                  ["numeric-id"]=>
+                  int(1860)
+                }
+                ["type"]=>
+                string(17) "wikibase-entityid"
+              }
+            }
+            ["type"]=>
+            string(9) "statement"
+            ["rank"]=>
+            string(6) "normal"
+            ["references"]=>
+            array(2) {
+              [0]=>
+              object(stdClass)#344 (3) {
+                ["hash"]=>
+                string(40) "3a986a5890d9cca1839ac8eedb28df110ef2a1b2"
+                ["snaks"]=>
+                object(stdClass)#337 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#338 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#339 (2) {
+                        ["value"]=>
+                        object(stdClass)#327 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(11921)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+              [1]=>
+              object(stdClass)#331 (3) {
+                ["hash"]=>
+                string(40) "47e5c39012d85adb21c5d29a46cfa3d069ac3b7f"
+                ["snaks"]=>
+                object(stdClass)#332 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#333 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#334 (2) {
+                        ["value"]=>
+                        object(stdClass)#335 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(177837)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+            }
+          }
+        }
+        ["P136"]=>
+        array(3) {
+          [0]=>
+          object(stdClass)#328 (5) {
+            ["id"]=>
+            string(44) "q174596$1335747E-5378-400A-B672-7F234F716611"
+            ["mainsnak"]=>
+            object(stdClass)#329 (4) {
+              ["snaktype"]=>
+              string(5) "value"
+              ["property"]=>
+              string(4) "P136"
+              ["datatype"]=>
+              string(13) "wikibase-item"
+              ["datavalue"]=>
+              object(stdClass)#330 (2) {
+                ["value"]=>
+                object(stdClass)#318 (2) {
+                  ["entity-type"]=>
+                  string(4) "item"
+                  ["numeric-id"]=>
+                  int(8261)
+                }
+                ["type"]=>
+                string(17) "wikibase-entityid"
+              }
+            }
+            ["type"]=>
+            string(9) "statement"
+            ["rank"]=>
+            string(6) "normal"
+            ["references"]=>
+            array(1) {
+              [0]=>
+              object(stdClass)#322 (3) {
+                ["hash"]=>
+                string(40) "50f57a3dbac4708ce4ae4a827c0afac7fcdb4a5c"
+                ["snaks"]=>
+                object(stdClass)#323 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#324 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#325 (2) {
+                        ["value"]=>
+                        object(stdClass)#326 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(11920)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+            }
+          }
+          [1]=>
+          object(stdClass)#319 (5) {
+            ["id"]=>
+            string(44) "Q174596$93446c33-401b-2c4b-bfc5-02dac014e1f0"
+            ["mainsnak"]=>
+            object(stdClass)#320 (4) {
+              ["snaktype"]=>
+              string(5) "value"
+              ["property"]=>
+              string(4) "P136"
+              ["datatype"]=>
+              string(13) "wikibase-item"
+              ["datavalue"]=>
+              object(stdClass)#321 (2) {
+                ["value"]=>
+                object(stdClass)#309 (2) {
+                  ["entity-type"]=>
+                  string(4) "item"
+                  ["numeric-id"]=>
+                  int(319226)
+                }
+                ["type"]=>
+                string(17) "wikibase-entityid"
+              }
+            }
+            ["type"]=>
+            string(9) "statement"
+            ["rank"]=>
+            string(6) "normal"
+            ["references"]=>
+            array(2) {
+              [0]=>
+              object(stdClass)#313 (3) {
+                ["hash"]=>
+                string(40) "7eb64cf9621d34c54fd4bd040ed4b61a88c4a1a0"
+                ["snaks"]=>
+                object(stdClass)#314 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#315 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#316 (2) {
+                        ["value"]=>
+                        object(stdClass)#317 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(328)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+              [1]=>
+              object(stdClass)#310 (3) {
+                ["hash"]=>
+                string(40) "47e5c39012d85adb21c5d29a46cfa3d069ac3b7f"
+                ["snaks"]=>
+                object(stdClass)#311 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#312 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#295 (2) {
+                        ["value"]=>
+                        object(stdClass)#304 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(177837)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+            }
+          }
+          [2]=>
+          object(stdClass)#305 (5) {
+            ["id"]=>
+            string(44) "Q174596$52ED62F2-B770-43DB-A639-53962ED200AE"
+            ["mainsnak"]=>
+            object(stdClass)#306 (4) {
+              ["snaktype"]=>
+              string(5) "value"
+              ["property"]=>
+              string(4) "P136"
+              ["datatype"]=>
+              string(13) "wikibase-item"
+              ["datavalue"]=>
+              object(stdClass)#307 (2) {
+                ["value"]=>
+                object(stdClass)#308 (2) {
+                  ["entity-type"]=>
+                  string(4) "item"
+                  ["numeric-id"]=>
+                  int(2367164)
+                }
+                ["type"]=>
+                string(17) "wikibase-entityid"
+              }
+            }
+            ["type"]=>
+            string(9) "statement"
+            ["rank"]=>
+            string(6) "normal"
+            ["references"]=>
+            array(1) {
+              [0]=>
+              object(stdClass)#299 (3) {
+                ["hash"]=>
+                string(40) "3a986a5890d9cca1839ac8eedb28df110ef2a1b2"
+                ["snaks"]=>
+                object(stdClass)#300 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#301 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#302 (2) {
+                        ["value"]=>
+                        object(stdClass)#303 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(11921)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+            }
+          }
+        }
+        ["P110"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#296 (5) {
+            ["id"]=>
+            string(44) "Q174596$7d4b5414-4df7-466d-cb16-4f228c620d36"
+            ["mainsnak"]=>
+            object(stdClass)#297 (4) {
+              ["snaktype"]=>
+              string(5) "value"
+              ["property"]=>
+              string(4) "P110"
+              ["datatype"]=>
+              string(13) "wikibase-item"
+              ["datavalue"]=>
+              object(stdClass)#298 (2) {
+                ["value"]=>
+                object(stdClass)#286 (2) {
+                  ["entity-type"]=>
+                  string(4) "item"
+                  ["numeric-id"]=>
+                  int(114405)
+                }
+                ["type"]=>
+                string(17) "wikibase-entityid"
+              }
+            }
+            ["type"]=>
+            string(9) "statement"
+            ["rank"]=>
+            string(6) "normal"
+            ["references"]=>
+            array(1) {
+              [0]=>
+              object(stdClass)#290 (3) {
+                ["hash"]=>
+                string(40) "7eb64cf9621d34c54fd4bd040ed4b61a88c4a1a0"
+                ["snaks"]=>
+                object(stdClass)#291 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#292 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#293 (2) {
+                        ["value"]=>
+                        object(stdClass)#294 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(328)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+            }
+          }
+        }
+        ["P123"]=>
+        array(2) {
+          [0]=>
+          object(stdClass)#287 (5) {
+            ["id"]=>
+            string(44) "q174596$DB37E1C7-283D-4C8A-8D4D-9A3D05393CC3"
+            ["mainsnak"]=>
+            object(stdClass)#288 (4) {
+              ["snaktype"]=>
+              string(5) "value"
+              ["property"]=>
+              string(4) "P123"
+              ["datatype"]=>
+              string(13) "wikibase-item"
+              ["datavalue"]=>
+              object(stdClass)#289 (2) {
+                ["value"]=>
+                object(stdClass)#272 (2) {
+                  ["entity-type"]=>
+                  string(4) "item"
+                  ["numeric-id"]=>
+                  int(172299)
+                }
+                ["type"]=>
+                string(17) "wikibase-entityid"
+              }
+            }
+            ["type"]=>
+            string(9) "statement"
+            ["rank"]=>
+            string(6) "normal"
+            ["references"]=>
+            array(1) {
+              [0]=>
+              object(stdClass)#281 (3) {
+                ["hash"]=>
+                string(40) "7eb64cf9621d34c54fd4bd040ed4b61a88c4a1a0"
+                ["snaks"]=>
+                object(stdClass)#282 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#283 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#284 (2) {
+                        ["value"]=>
+                        object(stdClass)#285 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(328)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+            }
+          }
+          [1]=>
+          object(stdClass)#276 (5) {
+            ["id"]=>
+            string(44) "q174596$2AE6B260-E0C7-4279-9EC4-C90F6DBA44B3"
+            ["mainsnak"]=>
+            object(stdClass)#277 (4) {
+              ["snaktype"]=>
+              string(5) "value"
+              ["property"]=>
+              string(4) "P123"
+              ["datatype"]=>
+              string(13) "wikibase-item"
+              ["datavalue"]=>
+              object(stdClass)#278 (2) {
+                ["value"]=>
+                object(stdClass)#279 (2) {
+                  ["entity-type"]=>
+                  string(4) "item"
+                  ["numeric-id"]=>
+                  int(3127696)
+                }
+                ["type"]=>
+                string(17) "wikibase-entityid"
+              }
+            }
+            ["type"]=>
+            string(9) "statement"
+            ["rank"]=>
+            string(6) "normal"
+            ["references"]=>
+            array(1) {
+              [0]=>
+              object(stdClass)#280 (3) {
+                ["hash"]=>
+                string(40) "7eb64cf9621d34c54fd4bd040ed4b61a88c4a1a0"
+                ["snaks"]=>
+                object(stdClass)#273 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#274 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#275 (2) {
+                        ["value"]=>
+                        object(stdClass)#263 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(328)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+            }
+          }
+        }
+        ["P921"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#267 (4) {
+            ["id"]=>
+            string(44) "Q174596$a7ad36e0-4d24-4e7c-b08b-8aa64a4eda14"
+            ["mainsnak"]=>
+            object(stdClass)#268 (4) {
+              ["snaktype"]=>
+              string(5) "value"
+              ["property"]=>
+              string(4) "P921"
+              ["datatype"]=>
+              string(13) "wikibase-item"
+              ["datavalue"]=>
+              object(stdClass)#269 (2) {
+                ["value"]=>
+                object(stdClass)#270 (2) {
+                  ["entity-type"]=>
+                  string(4) "item"
+                  ["numeric-id"]=>
+                  int(7990570)
+                }
+                ["type"]=>
+                string(17) "wikibase-entityid"
+              }
+            }
+            ["type"]=>
+            string(9) "statement"
+            ["rank"]=>
+            string(10) "deprecated"
+          }
+        }
+        ["P227"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#271 (5) {
+            ["id"]=>
+            string(44) "Q174596$2A46EC0A-9291-4B06-BF12-E028A677FF1B"
+            ["mainsnak"]=>
+            object(stdClass)#264 (4) {
+              ["snaktype"]=>
+              string(5) "value"
+              ["property"]=>
+              string(4) "P227"
+              ["datatype"]=>
+              string(6) "string"
+              ["datavalue"]=>
+              object(stdClass)#265 (2) {
+                ["value"]=>
+                string(9) "4204518-6"
+                ["type"]=>
+                string(6) "string"
+              }
+            }
+            ["type"]=>
+            string(9) "statement"
+            ["rank"]=>
+            string(6) "normal"
+            ["references"]=>
+            array(1) {
+              [0]=>
+              object(stdClass)#266 (3) {
+                ["hash"]=>
+                string(40) "004ec6fbee857649acdbdbad4f97b2c8571df97b"
+                ["snaks"]=>
+                object(stdClass)#260 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#261 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#262 (2) {
+                        ["value"]=>
+                        object(stdClass)#222 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(48183)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+            }
+          }
+        }
+        ["P214"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#229 (5) {
+            ["id"]=>
+            string(44) "Q174596$101DBFA1-4797-454D-9DC9-33F396B6547F"
+            ["mainsnak"]=>
+            object(stdClass)#228 (4) {
+              ["snaktype"]=>
+              string(5) "value"
+              ["property"]=>
+              string(4) "P214"
+              ["datatype"]=>
+              string(6) "string"
+              ["datavalue"]=>
+              object(stdClass)#227 (2) {
+                ["value"]=>
+                string(9) "185951107"
+                ["type"]=>
+                string(6) "string"
+              }
+            }
+            ["type"]=>
+            string(9) "statement"
+            ["rank"]=>
+            string(6) "normal"
+            ["references"]=>
+            array(1) {
+              [0]=>
+              object(stdClass)#226 (3) {
+                ["hash"]=>
+                string(40) "004ec6fbee857649acdbdbad4f97b2c8571df97b"
+                ["snaks"]=>
+                object(stdClass)#225 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#224 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#223 (2) {
+                        ["value"]=>
+                        object(stdClass)#210 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(48183)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+            }
+          }
+        }
+        ["P244"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#221 (5) {
+            ["id"]=>
+            string(44) "Q174596$5473C56B-9986-4FFC-9B5E-E12719A9B12C"
+            ["mainsnak"]=>
+            object(stdClass)#220 (4) {
+              ["snaktype"]=>
+              string(5) "value"
+              ["property"]=>
+              string(4) "P244"
+              ["datatype"]=>
+              string(6) "string"
+              ["datavalue"]=>
+              object(stdClass)#219 (2) {
+                ["value"]=>
+                string(9) "n88282472"
+                ["type"]=>
+                string(6) "string"
+              }
+            }
+            ["type"]=>
+            string(9) "statement"
+            ["rank"]=>
+            string(6) "normal"
+            ["references"]=>
+            array(1) {
+              [0]=>
+              object(stdClass)#218 (3) {
+                ["hash"]=>
+                string(40) "004ec6fbee857649acdbdbad4f97b2c8571df97b"
+                ["snaks"]=>
+                object(stdClass)#217 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#216 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#110 (2) {
+                        ["value"]=>
+                        object(stdClass)#111 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(48183)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+            }
+          }
+        }
+        ["P910"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#108 (4) {
+            ["id"]=>
+            string(44) "Q174596$231DBEC6-4E64-4B1F-8447-D223D959D396"
+            ["mainsnak"]=>
+            object(stdClass)#109 (4) {
+              ["snaktype"]=>
+              string(5) "value"
+              ["property"]=>
+              string(4) "P910"
+              ["datatype"]=>
+              string(13) "wikibase-item"
+              ["datavalue"]=>
+              object(stdClass)#195 (2) {
+                ["value"]=>
+                object(stdClass)#194 (2) {
+                  ["entity-type"]=>
+                  string(4) "item"
+                  ["numeric-id"]=>
+                  int(7469080)
+                }
+                ["type"]=>
+                string(17) "wikibase-entityid"
+              }
+            }
+            ["type"]=>
+            string(9) "statement"
+            ["rank"]=>
+            string(6) "normal"
+          }
+        }
+        ["P646"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#192 (5) {
+            ["id"]=>
+            string(44) "Q174596$25EACD49-9FD2-4FC3-94D8-AAB5C58005D3"
+            ["mainsnak"]=>
+            object(stdClass)#191 (4) {
+              ["snaktype"]=>
+              string(5) "value"
+              ["property"]=>
+              string(4) "P646"
+              ["datatype"]=>
+              string(6) "string"
+              ["datavalue"]=>
+              object(stdClass)#187 (2) {
+                ["value"]=>
+                string(8) "/m/04_m6"
+                ["type"]=>
+                string(6) "string"
+              }
+            }
+            ["type"]=>
+            string(9) "statement"
+            ["rank"]=>
+            string(6) "normal"
+            ["references"]=>
+            array(1) {
+              [0]=>
+              object(stdClass)#199 (3) {
+                ["hash"]=>
+                string(40) "b923b0d68beb300866b87ead39f61e63ec30d8af"
+                ["snaks"]=>
+                object(stdClass)#188 (2) {
+                  ["P248"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#106 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P248"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#198 (2) {
+                        ["value"]=>
+                        object(stdClass)#197 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(15241312)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                  ["P577"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#204 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P577"
+                      ["datatype"]=>
+                      string(4) "time"
+                      ["datavalue"]=>
+                      object(stdClass)#143 (2) {
+                        ["value"]=>
+                        object(stdClass)#150 (6) {
+                          ["time"]=>
+                          string(28) "+00000002013-10-28T00:00:00Z"
+                          ["timezone"]=>
+                          int(0)
+                          ["before"]=>
+                          int(0)
+                          ["after"]=>
+                          int(0)
+                          ["precision"]=>
+                          int(11)
+                          ["calendarmodel"]=>
+                          string(39) "http://www.wikidata.org/entity/Q1985727"
+                        }
+                        ["type"]=>
+                        string(4) "time"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(2) {
+                  [0]=>
+                  string(4) "P248"
+                  [1]=>
+                  string(4) "P577"
+                }
+              }
+            }
+          }
+        }
+        ["P268"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#121 (4) {
+            ["id"]=>
+            string(44) "Q174596$93A0BA89-3BAA-4936-8DD7-BD6A43B7DFDE"
+            ["mainsnak"]=>
+            object(stdClass)#149 (4) {
+              ["snaktype"]=>
+              string(5) "value"
+              ["property"]=>
+              string(4) "P268"
+              ["datatype"]=>
+              string(6) "string"
+              ["datavalue"]=>
+              object(stdClass)#162 (2) {
+                ["value"]=>
+                string(9) "120108674"
+                ["type"]=>
+                string(6) "string"
+              }
+            }
+            ["type"]=>
+            string(9) "statement"
+            ["rank"]=>
+            string(6) "normal"
+          }
+        }
+        ["P18"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#203 (5) {
+            ["id"]=>
+            string(44) "Q174596$487A504F-F8F7-47B7-B546-D0F03F2CAEFF"
+            ["mainsnak"]=>
+            object(stdClass)#160 (4) {
+              ["snaktype"]=>
+              string(5) "value"
+              ["property"]=>
+              string(3) "P18"
+              ["datatype"]=>
+              string(12) "commonsMedia"
+              ["datavalue"]=>
+              object(stdClass)#155 (2) {
+                ["value"]=>
+                string(27) "Moby-Dick FE title page.jpg"
+                ["type"]=>
+                string(6) "string"
+              }
+            }
+            ["type"]=>
+            string(9) "statement"
+            ["rank"]=>
+            string(6) "normal"
+            ["references"]=>
+            array(1) {
+              [0]=>
+              object(stdClass)#156 (3) {
+                ["hash"]=>
+                string(40) "7eb64cf9621d34c54fd4bd040ed4b61a88c4a1a0"
+                ["snaks"]=>
+                object(stdClass)#147 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#183 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#182 (2) {
+                        ["value"]=>
+                        object(stdClass)#181 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(328)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+            }
+          }
+        }
+        ["P577"]=>
+        array(1) {
+          [0]=>
+          object(stdClass)#209 (5) {
+            ["id"]=>
+            string(44) "Q174596$67F183E9-FE22-4AD1-A599-E2EFB2B14AA4"
+            ["mainsnak"]=>
+            object(stdClass)#138 (4) {
+              ["snaktype"]=>
+              string(5) "value"
+              ["property"]=>
+              string(4) "P577"
+              ["datatype"]=>
+              string(4) "time"
+              ["datavalue"]=>
+              object(stdClass)#200 (2) {
+                ["value"]=>
+                object(stdClass)#125 (6) {
+                  ["time"]=>
+                  string(28) "+00000001851-10-18T00:00:00Z"
+                  ["timezone"]=>
+                  int(0)
+                  ["before"]=>
+                  int(0)
+                  ["after"]=>
+                  int(0)
+                  ["precision"]=>
+                  int(11)
+                  ["calendarmodel"]=>
+                  string(39) "http://www.wikidata.org/entity/Q1985727"
+                }
+                ["type"]=>
+                string(4) "time"
+              }
+            }
+            ["type"]=>
+            string(9) "statement"
+            ["rank"]=>
+            string(6) "normal"
+            ["references"]=>
+            array(1) {
+              [0]=>
+              object(stdClass)#134 (3) {
+                ["hash"]=>
+                string(40) "7eb64cf9621d34c54fd4bd040ed4b61a88c4a1a0"
+                ["snaks"]=>
+                object(stdClass)#120 (1) {
+                  ["P143"]=>
+                  array(1) {
+                    [0]=>
+                    object(stdClass)#126 (4) {
+                      ["snaktype"]=>
+                      string(5) "value"
+                      ["property"]=>
+                      string(4) "P143"
+                      ["datatype"]=>
+                      string(13) "wikibase-item"
+                      ["datavalue"]=>
+                      object(stdClass)#127 (2) {
+                        ["value"]=>
+                        object(stdClass)#128 (2) {
+                          ["entity-type"]=>
+                          string(4) "item"
+                          ["numeric-id"]=>
+                          int(328)
+                        }
+                        ["type"]=>
+                        string(17) "wikibase-entityid"
+                      }
+                    }
+                  }
+                }
+                ["snaks-order"]=>
+                array(1) {
+                  [0]=>
+                  string(4) "P143"
+                }
+              }
+            }
+          }
+        }
+      }
+      ["sitelinks"]=>
+      object(stdClass)#119 (62) {
+        ["anwiki"]=>
+        object(stdClass)#117 (3) {
+          ["site"]=>
+          string(6) "anwiki"
+          ["title"]=>
+          string(18) "Moby Dick (novela)"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["arwiki"]=>
+        object(stdClass)#124 (3) {
+          ["site"]=>
+          string(6) "arwiki"
+          ["title"]=>
+          string(15) "Ù…ÙˆØ¨ÙŠ Ø¯ÙŠÙƒ"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["be_x_oldwiki"]=>
+        object(stdClass)#178 (3) {
+          ["site"]=>
+          string(12) "be_x_oldwiki"
+          ["title"]=>
+          string(15) "ÐœÐ¾Ð±Ñ– Ð”Ñ‹Ðº"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["bewiki"]=>
+        object(stdClass)#166 (3) {
+          ["site"]=>
+          string(6) "bewiki"
+          ["title"]=>
+          string(17) "ÐœÐ¾Ð±Ñ– Ð”Ð·Ñ–Ðº"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["bgwiki"]=>
+        object(stdClass)#176 (3) {
+          ["site"]=>
+          string(6) "bgwiki"
+          ["title"]=>
+          string(15) "ÐœÐ¾Ð±Ð¸ Ð”Ð¸Ðº"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["bnwiki"]=>
+        object(stdClass)#170 (3) {
+          ["site"]=>
+          string(6) "bnwiki"
+          ["title"]=>
+          string(22) "à¦®à§‹à¦¬à¦¿ à¦¡à¦¿à¦•"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["bswikiquote"]=>
+        object(stdClass)#118 (3) {
+          ["site"]=>
+          string(11) "bswikiquote"
+          ["title"]=>
+          string(9) "Moby Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["cawiki"]=>
+        object(stdClass)#123 (3) {
+          ["site"]=>
+          string(6) "cawiki"
+          ["title"]=>
+          string(9) "Moby Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["commonswiki"]=>
+        object(stdClass)#214 (3) {
+          ["site"]=>
+          string(11) "commonswiki"
+          ["title"]=>
+          string(9) "Moby-Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["cswiki"]=>
+        object(stdClass)#165 (3) {
+          ["site"]=>
+          string(6) "cswiki"
+          ["title"]=>
+          string(14) "BÃ­lÃ¡ velryba"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["dawiki"]=>
+        object(stdClass)#168 (3) {
+          ["site"]=>
+          string(6) "dawiki"
+          ["title"]=>
+          string(9) "Moby Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["dewiki"]=>
+        object(stdClass)#163 (3) {
+          ["site"]=>
+          string(6) "dewiki"
+          ["title"]=>
+          string(9) "Moby-Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["enwiki"]=>
+        object(stdClass)#177 (3) {
+          ["site"]=>
+          string(6) "enwiki"
+          ["title"]=>
+          string(9) "Moby-Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["enwikiquote"]=>
+        object(stdClass)#152 (3) {
+          ["site"]=>
+          string(11) "enwikiquote"
+          ["title"]=>
+          string(9) "Moby-Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["enwikisource"]=>
+        object(stdClass)#164 (3) {
+          ["site"]=>
+          string(12) "enwikisource"
+          ["title"]=>
+          string(9) "Moby-Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["eowiki"]=>
+        object(stdClass)#157 (3) {
+          ["site"]=>
+          string(6) "eowiki"
+          ["title"]=>
+          string(9) "Moby-Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["eswiki"]=>
+        object(stdClass)#167 (3) {
+          ["site"]=>
+          string(6) "eswiki"
+          ["title"]=>
+          string(9) "Moby-Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["etwiki"]=>
+        object(stdClass)#215 (3) {
+          ["site"]=>
+          string(6) "etwiki"
+          ["title"]=>
+          string(9) "Moby Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["euwiki"]=>
+        object(stdClass)#212 (3) {
+          ["site"]=>
+          string(6) "euwiki"
+          ["title"]=>
+          string(9) "Moby-Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["fawiki"]=>
+        object(stdClass)#161 (3) {
+          ["site"]=>
+          string(6) "fawiki"
+          ["title"]=>
+          string(17) "Ù…ÙˆØ¨ÛŒâ€ŒØ¯ÛŒÚ©"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["fiwiki"]=>
+        object(stdClass)#211 (3) {
+          ["site"]=>
+          string(6) "fiwiki"
+          ["title"]=>
+          string(9) "Moby Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["frwiki"]=>
+        object(stdClass)#159 (3) {
+          ["site"]=>
+          string(6) "frwiki"
+          ["title"]=>
+          string(9) "Moby Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["frwikiquote"]=>
+        object(stdClass)#158 (3) {
+          ["site"]=>
+          string(11) "frwikiquote"
+          ["title"]=>
+          string(9) "Moby Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["glwiki"]=>
+        object(stdClass)#189 (3) {
+          ["site"]=>
+          string(6) "glwiki"
+          ["title"]=>
+          string(9) "Moby Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["hewiki"]=>
+        object(stdClass)#154 (3) {
+          ["site"]=>
+          string(6) "hewiki"
+          ["title"]=>
+          string(15) "×ž×•×‘×™ ×“×™×§"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["huwiki"]=>
+        object(stdClass)#169 (3) {
+          ["site"]=>
+          string(6) "huwiki"
+          ["title"]=>
+          string(19) "Moby Dick (regÃ©ny)"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["idwiki"]=>
+        object(stdClass)#129 (3) {
+          ["site"]=>
+          string(6) "idwiki"
+          ["title"]=>
+          string(9) "Moby-Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["itwiki"]=>
+        object(stdClass)#207 (3) {
+          ["site"]=>
+          string(6) "itwiki"
+          ["title"]=>
+          string(9) "Moby Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["jawiki"]=>
+        object(stdClass)#131 (3) {
+          ["site"]=>
+          string(6) "jawiki"
+          ["title"]=>
+          string(6) "ç™½é¯¨"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["jvwiki"]=>
+        object(stdClass)#132 (3) {
+          ["site"]=>
+          string(6) "jvwiki"
+          ["title"]=>
+          string(9) "Moby-Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["kowiki"]=>
+        object(stdClass)#208 (3) {
+          ["site"]=>
+          string(6) "kowiki"
+          ["title"]=>
+          string(9) "ëª¨ë¹„ë”•"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["lawiki"]=>
+        object(stdClass)#196 (3) {
+          ["site"]=>
+          string(6) "lawiki"
+          ["title"]=>
+          string(9) "Moby-Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["ltwiki"]=>
+        object(stdClass)#213 (3) {
+          ["site"]=>
+          string(6) "ltwiki"
+          ["title"]=>
+          string(11) "Mobis Dikas"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["lvwiki"]=>
+        object(stdClass)#206 (3) {
+          ["site"]=>
+          string(6) "lvwiki"
+          ["title"]=>
+          string(11) "Mobijs Diks"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["mlwiki"]=>
+        object(stdClass)#172 (3) {
+          ["site"]=>
+          string(6) "mlwiki"
+          ["title"]=>
+          string(31) "à´®àµŠà´¬à´¿ à´¡à´¿à´•àµà´•àµ"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["nlwiki"]=>
+        object(stdClass)#171 (3) {
+          ["site"]=>
+          string(6) "nlwiki"
+          ["title"]=>
+          string(16) "Moby-Dick (boek)"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["nnwiki"]=>
+        object(stdClass)#174 (3) {
+          ["site"]=>
+          string(6) "nnwiki"
+          ["title"]=>
+          string(9) "Moby Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["nowiki"]=>
+        object(stdClass)#175 (3) {
+          ["site"]=>
+          string(6) "nowiki"
+          ["title"]=>
+          string(9) "Moby Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["ocwiki"]=>
+        object(stdClass)#179 (3) {
+          ["site"]=>
+          string(6) "ocwiki"
+          ["title"]=>
+          string(9) "Moby Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["pawiki"]=>
+        object(stdClass)#153 (3) {
+          ["site"]=>
+          string(6) "pawiki"
+          ["title"]=>
+          string(25) "à¨®à©‹à¨¬à©€ à¨¡à¨¿à©±à¨•"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["plwiki"]=>
+        object(stdClass)#180 (3) {
+          ["site"]=>
+          string(6) "plwiki"
+          ["title"]=>
+          string(9) "Moby Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["plwikiquote"]=>
+        object(stdClass)#107 (3) {
+          ["site"]=>
+          string(11) "plwikiquote"
+          ["title"]=>
+          string(9) "Moby Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["ptwiki"]=>
+        object(stdClass)#201 (3) {
+          ["site"]=>
+          string(6) "ptwiki"
+          ["title"]=>
+          string(9) "Moby Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["rowiki"]=>
+        object(stdClass)#173 (3) {
+          ["site"]=>
+          string(6) "rowiki"
+          ["title"]=>
+          string(9) "Moby Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["ruwiki"]=>
+        object(stdClass)#136 (3) {
+          ["site"]=>
+          string(6) "ruwiki"
+          ["title"]=>
+          string(15) "ÐœÐ¾Ð±Ð¸ Ð”Ð¸Ðº"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["ruwikiquote"]=>
+        object(stdClass)#135 (3) {
+          ["site"]=>
+          string(11) "ruwikiquote"
+          ["title"]=>
+          string(15) "ÐœÐ¾Ð±Ð¸ Ð”Ð¸Ðº"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["shwiki"]=>
+        object(stdClass)#122 (3) {
+          ["site"]=>
+          string(6) "shwiki"
+          ["title"]=>
+          string(9) "Moby-Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["simplewiki"]=>
+        object(stdClass)#133 (3) {
+          ["site"]=>
+          string(10) "simplewiki"
+          ["title"]=>
+          string(9) "Moby-Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["siwiki"]=>
+        object(stdClass)#140 (3) {
+          ["site"]=>
+          string(6) "siwiki"
+          ["title"]=>
+          string(25) "à¶¸à·œà¶¶à·’-à¶©à·’à¶šà·Š"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["skwiki"]=>
+        object(stdClass)#139 (3) {
+          ["site"]=>
+          string(6) "skwiki"
+          ["title"]=>
+          string(14) "Biela veÄ¾ryba"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["sqwiki"]=>
+        object(stdClass)#151 (3) {
+          ["site"]=>
+          string(6) "sqwiki"
+          ["title"]=>
+          string(9) "Moby-Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["srwiki"]=>
+        object(stdClass)#137 (3) {
+          ["site"]=>
+          string(6) "srwiki"
+          ["title"]=>
+          string(15) "ÐœÐ¾Ð±Ð¸ Ð”Ð¸Ðº"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["svwiki"]=>
+        object(stdClass)#144 (3) {
+          ["site"]=>
+          string(6) "svwiki"
+          ["title"]=>
+          string(9) "Moby Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["thwiki"]=>
+        object(stdClass)#130 (3) {
+          ["site"]=>
+          string(6) "thwiki"
+          ["title"]=>
+          string(21) "à¹‚à¸¡à¸šà¸´à¸”à¸´à¸"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["tlwiki"]=>
+        object(stdClass)#142 (3) {
+          ["site"]=>
+          string(6) "tlwiki"
+          ["title"]=>
+          string(9) "Moby-Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["trwiki"]=>
+        object(stdClass)#141 (3) {
+          ["site"]=>
+          string(6) "trwiki"
+          ["title"]=>
+          string(9) "Moby Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["ukwiki"]=>
+        object(stdClass)#186 (3) {
+          ["site"]=>
+          string(6) "ukwiki"
+          ["title"]=>
+          string(15) "ÐœÐ¾Ð±Ñ– Ð”Ñ–Ðº"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["viwiki"]=>
+        object(stdClass)#205 (3) {
+          ["site"]=>
+          string(6) "viwiki"
+          ["title"]=>
+          string(9) "Moby Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["warwiki"]=>
+        object(stdClass)#146 (3) {
+          ["site"]=>
+          string(7) "warwiki"
+          ["title"]=>
+          string(9) "Moby-Dick"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["xmfwiki"]=>
+        object(stdClass)#145 (3) {
+          ["site"]=>
+          string(7) "xmfwiki"
+          ["title"]=>
+          string(25) "áƒ›áƒáƒ‘áƒ˜ áƒ“áƒ˜áƒ™áƒ˜"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["zh_yuewiki"]=>
+        object(stdClass)#202 (3) {
+          ["site"]=>
+          string(10) "zh_yuewiki"
+          ["title"]=>
+          string(9) "ç„¡æ¯”æ•µ"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+        ["zhwiki"]=>
+        object(stdClass)#112 (3) {
+          ["site"]=>
+          string(6) "zhwiki"
+          ["title"]=>
+          string(9) "ç™½é¯¨è¨˜"
+          ["badges"]=>
+          array(0) {
+          }
+        }
+      }
+    }
+  }
+  ["success"]=>
+  int(1)
+}
