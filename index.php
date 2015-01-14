@@ -35,5 +35,10 @@ $obj_file = json_decode($file);
 
 **/
 foreach ($obj_file->files as $book) {
+    ?><p><?php
     echo $book->title;
+    echo '<br/>';
+    $info_url = 'http://en.wikipedia.org/w/api.php?format=json&action=query&';
+    file_get_contents($info);
+    ?></p><?php
 }
