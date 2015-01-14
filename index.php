@@ -6,10 +6,10 @@ echo "Let's get some JSON<pre><code>";
 
 $file = file_get_contents('small_metadata.json');
 
-var_dump($file);
-$array_file = json_decode($file);
-var_dump($array_file);
-    switch (json_last_error()) {
+#var_dump($file);
+$obj_file = json_decode($file);
+#var_dump($array_file);
+/**    switch (json_last_error()) {
         case JSON_ERROR_NONE:
             echo ' - No errors';
         break;
@@ -33,4 +33,7 @@ var_dump($array_file);
         break;
     }
 
-
+**/
+foreach ($obj_file->files as $book) {
+    echo $book->title;
+}
