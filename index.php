@@ -91,9 +91,9 @@ $obj_file = json_decode($file);
 $url = 'https://wdq.wmflabs.org/';
 $file = 'api';
 $vars = array(
-            'action' => 'wbgetentities',
-            'titles' => 'Moby Dick',
-            'sites'  => 'enwiki',
+            'action' => 'wbsearchentities',
+            'search' => 'Moby Dick',
+            'language' => 'en',
             'format' => 'json'
             );
 #$vars = 'action=wbgetentities&sites=frwiki&titles=France&languages=zh-hans|zh-hant|fr&props=sitelinks|labels|aliases|descriptions&format=json';
