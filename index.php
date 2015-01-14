@@ -7,7 +7,9 @@ echo "Let's get some JSON<pre><code>";
 function make_array_url_q($array){
     $s = '?';
     foreach ($array as $k=>$q){
-        $s .= $k.'='.$q;
+        #$k = str_replace(' ', '%20', $k);
+        #$q = str_replace(' ', '%20', $q);
+        $s .= rawurlencode($k).'='.rawurlencode($q);
         $s .= '&';
     }
     return $s;
@@ -51,7 +53,7 @@ function get_wikidata_url($query_array){
                     'lgname' => $un,
                     'lgpassword' => $pw
                 );
-    $l = get_url("http://mediawiki.org/",$file,$login_q,'','POST');
+    #$l = get_url("http://mediawiki.org/",$file,$login_q,'','POST');
     $r = get_url($base_url,$file,$query,'','POST');
     return $r;
 }
@@ -90,7 +92,7 @@ $url = 'https://wdq.wmflabs.org/';
 $file = 'api';
 $vars = array(
             'action' => 'wbgetentities',
-            'titles' => 'Pizza',
+            'titles' => 'Moby Dick',
             'sites'  => 'enwiki',
             'format' => 'json'
             );
