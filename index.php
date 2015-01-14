@@ -239,6 +239,7 @@ if (false != $do_they ) {
     #$vars = 'action=wbgetentities&sites=frwiki&titles=France&languages=zh-hans|zh-hant|fr&props=sitelinks|labels|aliases|descriptions&format=json';
     $s = get_wikipedia_url($vars);
     $j = does_it_json($s); 
+    #WHO THE HELL PUTS AN OBJECT ID INSIDE AN OBJECT THAT CAN ONLY BE ACCESSED BY ID?!
     foreach($j->query->pages as $page){
         $rs = $page->revisions;
         $array_key = "*";
