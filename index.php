@@ -174,12 +174,27 @@ function do_results_have_author($json_as_obj, $check_author = "Hermann Melville"
 
 $continue = 0;
 $do_they = do_results_have_author($j);
-while (!$do_they) {
+while (!$do_they && !empty($j->search)) {
     $continue += 7;
     $vars['continue'] = $continue;
     $s = get_wikidata_url($vars);
     $j = does_it_json($s);
     $do_they = do_results_have_author($j);
+}
+$do_they_again = false;
+$vars['search'] = str_replace(' ', '-', $vars['search']);
+$continue = 0;
+$vars['continue'] = $continue;
+    $s = get_wikidata_url($vars);
+    $j = does_it_json($s);
+    $do_they_again = do_results_have_author($j);
+while (!$do_they_again && !empty($j->search)) {
+    $vars['search'] = str_replace(' ', '-', $vars['search']);
+    $continue += 7;
+    $vars['continue'] = $continue;
+    $s = get_wikidata_url($vars);
+    $j = does_it_json($s);
+    $do_they_again = do_results_have_author($j);
 }
 
 die();
