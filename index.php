@@ -98,6 +98,7 @@ $vars = array(
             'action' => 'wbsearchentities',
             'search' => 'Moby Dick',
             'language' => 'en',
+            'continue' => 7,
             'format' => 'json'
             );
 #$vars = 'action=wbgetentities&sites=frwiki&titles=France&languages=zh-hans|zh-hant|fr&props=sitelinks|labels|aliases|descriptions&format=json';
@@ -113,9 +114,10 @@ function get_wiki_data_obj($vars){
     return $j;
 }
 
-function wb_authors_finder($obj){
-    if (isset($obj->entities->Q174596->claims->P50)){
-        $author = $obj->entities->Q174596->claims->P50;
+function wb_authors_finder($obj, $obj_id){
+    #Q174596
+    if (isset($obj->entities->$obj_id->claims->P50)){
+        $author = $obj->entities->$obj_id->claims->P50;
         $author = $author[0];
         $id_holder = 'numeric-id';
         $id = $author->mainsnak->datavalue->value->$id_holder;
@@ -149,23 +151,36 @@ function do_results_have_author($json_as_obj, $check_author = "Hermann Melville"
     foreach ($json_as_obj->search as $r){
         $sarray = array(
                 'action' => 'wbgetentities',
-                'ids' => 'Q174596'#Q4985#'Q174596'#$r->id
+                'ids' => $r->id
             );
-
+        $id_obj = $r->id;
         $obj = get_wiki_data_obj($sarray);
-        $author = $obj->entities->Q174596->claims->P50;
-        $author = $author[0];
-        $id_holder = 'numeric-id';
-        $authors = wb_authors_finder($obj); 
-        if (check_author_aliases_against($authors, $check_author)){
-            var_dump('Q174596');
+        if (!isset($obj->entities->$id_obj->claims->P50)){
+
+        } else {
+            $author = $obj->entities->$id_obj->claims->P50;
+            $author = $author[0];
+            $id_holder = 'numeric-id';
+            $authors = wb_authors_finder($obj, $id_obj); 
+            if (!empty($authors) && check_author_aliases_against($authors, $check_author)){
+                var_dump($r->id); die();#'Q174596');
+            }
         }
-        die();
+        
         #P50 = author
     }
+    return false;
 }
 
-do_results_have_author($j);
+$continue = 0;
+$do_they = do_results_have_author($j);
+while (!$do_they) {
+    $continue += 7;
+    $vars['continue'] = $continue;
+    $s = get_wikidata_url($vars);
+    $j = does_it_json($s);
+    $do_they = do_results_have_author($j);
+}
 
 die();
 foreach ($obj_file->files as $book) {
