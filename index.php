@@ -77,8 +77,6 @@ function get_wikipedia_url($query_array){
     return $r;
 }
 
-$file = file_get_contents('small_metadata.json');
-
 #var_dump($file);
 function does_it_json($file){
 $obj_file = json_decode($file);
@@ -109,21 +107,18 @@ $obj_file = json_decode($file);
     return $obj_file;
 }
 
-$obj_file = does_it_json($file);
-
-$url = 'https://wdq.wmflabs.org/';
-$file = 'api';
-$vars = array(
-            'action' => 'wbsearchentities',
-            'search' => 'Moby Dick',
-            'language' => 'en',
-            'continue' => 7,
-            'format' => 'json'
-            );
-#$vars = 'action=wbgetentities&sites=frwiki&titles=France&languages=zh-hans|zh-hant|fr&props=sitelinks|labels|aliases|descriptions&format=json';
-$s = get_wikidata_url($vars);
-$j = does_it_json($s);
-var_dump($j); 
+function search_wikidata($args){
+    $vars = array(
+            'action'    =>  'wbsearchentities',
+            'language'  =>  'en',
+            'format'    =>  'json'
+        );
+    $array = array_merge($vars, $args);
+    $s = get_wikidata_url($array);
+    $j = does_it_json($s);
+    #var_dump($j);
+    return $j;
+}
 
 function get_wiki_data_obj($vars){
     $vars['format'] = 'json';
@@ -191,70 +186,122 @@ function do_results_have_author($json_as_obj, $check_author = "Hermann Melville"
     return false;
 }
 
-$continue = 0;
-$do_they = do_results_have_author($j);
-while (!$do_they && !empty($j->search)) {
-    $continue += 7;
-    $vars['continue'] = $continue;
-    $s = get_wikidata_url($vars);
-    $j = does_it_json($s);
+function crawl_wikidata_for_title_and_author($j, $vars, $author){
+    $continue = 0;
     $do_they = do_results_have_author($j);
-}
-$do_they_again = false;
-$vars['search'] = str_replace(' ', '-', $vars['search']);
-$continue = 0;
-$vars['continue'] = $continue;
-    $s = get_wikidata_url($vars);
-    $j = does_it_json($s);
-    $do_they = do_results_have_author($j);
-while (!$do_they && !empty($j->search)) {
+    while (!$do_they && !empty($j->search)) {
+        $continue += 7;
+        $vars['continue'] = $continue;
+        $j = search_wikidata($vars);
+        $do_they = do_results_have_author($j);
+    }
+
+    $do_they_again = false;
     $vars['search'] = str_replace(' ', '-', $vars['search']);
-    $continue += 7;
+    $continue = 0;
     $vars['continue'] = $continue;
-    $s = get_wikidata_url($vars);
-    $j = does_it_json($s);
+    $j = search_wikidata($vars);
     $do_they = do_results_have_author($j);
+    while (!$do_they && !empty($j->search)) {
+        $vars['search'] = str_replace(' ', '-', $vars['search']);
+        $continue += 7;
+        $vars['continue'] = $continue;
+        $j = search_wikidata($vars);
+        $do_they = do_results_have_author($j);
+    }
+    #var_dump($do_they);
+    return $do_they;
+    
 }
-var_dump($do_they);
-if (false != $do_they ) {
-    $vars = array(
+
+function get_wikipedia_title_from_wikidata($id){
+        $vars = array(
             'action' => 'wbgetentities',
-            'ids' => $do_they,
+            'ids' => $id,
             'format' => 'json'
             );
     #Fun fact P18 is title images!
     #$vars = 'action=wbgetentities&sites=frwiki&titles=France&languages=zh-hans|zh-hant|fr&props=sitelinks|labels|aliases|descriptions&format=json';
-    $s = get_wikidata_url($vars);
-    $j = does_it_json($s);
-    var_dump($j->entities->$do_they->sitelinks->enwiki->title);
+    $j = search_wikidata($vars);
+    var_dump($j->entities->$id->sitelinks->enwiki->title);
+    return $j->entities->$id->sitelinks->enwiki->title;
+
+}
+
+function get_plot_from_wikipedia_article($string){
+    $plot = get_string_between($string, '==Plot==', '==');
+    var_dump($plot);
+    return $plot;
+}
+
+function get_wikipedia_description($title){
     $vars = array(
             'action' => 'query',
-            'titles' => $j->entities->$do_they->sitelinks->enwiki->title,
+            'titles' => $title,
             'format' => 'json',
             'prop'   => 'revisions',
             'rvprop' => 'content',
             #'rawcontinue' => ''
-            );
+        );
     #Fun fact P18 is title images!
     #$vars = 'action=wbgetentities&sites=frwiki&titles=France&languages=zh-hans|zh-hant|fr&props=sitelinks|labels|aliases|descriptions&format=json';
     $s = get_wikipedia_url($vars);
-    $j = does_it_json($s); 
+    $j = search_wikidata($s); 
     #WHO THE HELL PUTS AN OBJECT ID INSIDE AN OBJECT THAT CAN ONLY BE ACCESSED BY ID?!
     foreach($j->query->pages as $page){
         $rs = $page->revisions;
         $array_key = "*";
         $string = $rs[0]->$array_key;
-        var_dump(get_string_between($string, '==Plot==', '=='));
+        $plot = get_plot_from_wikipedia_article($string);
     }
-    #var_dump(get_string_between($j->query->pages->1->revisions, '==Plot==', '=='));
+    if (false != $plot){
+        return $plot;
+    }
 }
 
-die();
-foreach ($obj_file->files as $book) {
-    ?><p><?php
-    echo $book->title;
-    echo '<br/>';
-    #$info_url = 'http://en.wikipedia.org/w/api.php?format=json&action=query&';
-    #file_get_contents($info);
-    ?></p><?php
+function get_book_description($title = 'Moby Dick', $author = 'Hermann Melville'){
+    $vars = array(
+            'search' => $title
+            );
+    $j = search_wikidata($vars);
+    $author = $author;
+    $do_they = crawl_wikidata_for_title_and_author($j, $vars, $author);
+
+    if (false != $do_they ) {
+        $title = get_wikipedia_title_from_wikidata($do_they);
+        $description = get_wikipedia_description($title);
+        var_dump($description);
+        return $description;
+        #var_dump(get_string_between($j->query->pages->1->revisions, '==Plot==', '=='));
+    }
 }
+
+function some_books_with_descriptions($file_contents){
+    $obj_file = does_it_json($file_contents);
+    foreach ($obj_file->files as $book) {
+        ?><p><?php
+        echo $book->title;
+        echo '<br/>';
+        foreach ($book->authors as $authors_obj) {
+            var_dump($authors_obj->display_name);
+            $descrip = get_book_description($book->title, $authors_obj->display_name);
+            if (false != $descrip){
+                return $descrip;
+            }
+        }
+        #$info_url = 'http://en.wikipedia.org/w/api.php?format=json&action=query&';
+        #file_get_contents($info);
+        ?></p><?php
+    }
+}
+
+
+$file = file_get_contents('small_metadata.json');
+some_books_with_descriptions($file);
+
+$description = get_book_description('Moby Dick', 'Hermann Melville');
+
+var_dump($description);
+
+die();
+
