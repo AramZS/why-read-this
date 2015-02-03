@@ -4,6 +4,56 @@ error_reporting(E_ALL);
 ini_set('display_errors',1); 
 echo "Let's get some JSON<pre><code>";
 
+/**
+* Send takes an array dimension from a backtrace and puts it in log format
+*
+* As part of the effort to create the most informative log we want to auto
+* include the information about what function is adding to the log.
+*
+* @param array $caller The sub-array from a step in a debug_backtrace
+*/
+function pf_function_auto_logger($caller){
+    if (isset($caller['class'])){
+        $func_statement = '[ ' . $caller['class'] . '->' . $caller['function'] . ' ] ';
+    } else {
+        $func_statement = '[ ' . $caller['function'] . ' ] ';
+    }
+    return $func_statement;
+}
+
+function dump_log(){
+    $trace=debug_backtrace();
+    foreach ($trace as $key=>$call) {
+        if ( in_array( $call['function'], array('call_user_func_array','do_action','apply_filter', 'call_user_func', 'do_action_ref_array', 'require_once') ) ){
+            unset($trace[$key]);
+        }
+    }
+    reset($trace);
+    $first_call = next($trace);
+    if (!empty($first_call)){
+        $func_statement = pf_function_auto_logger( $first_call );
+    } else {
+        $func_statement = '[ ? ] ';
+    }
+    $second_call = next($trace);
+    if ( !empty($second_call) ){
+        if ( ('call_user_func_array' == $second_call['function']) ){
+            $third_call = next($trace);
+            if ( !empty($third_call) ) {
+                $upper_func_statement = pf_function_auto_logger($third_call);
+            } else {
+                $upper_func_statement = '[ ? ] ';
+            }
+        } else {
+            $upper_func_statement = pf_function_auto_logger($second_call);
+        }
+        $func_statement = $upper_func_statement . $func_statement;
+    }
+    var_dump($func_statement);
+
+}
+
+
 function make_array_url_q($array){
     $s = '?';
     foreach ($array as $k=>$q){
@@ -22,7 +72,7 @@ function get_url($base_url, $file, $vars, $headers = array('Api-User-Agent: Exam
     if (is_array($vars)){ $url_qs = make_array_url_q($vars); } else { $url_qs = '?'.$vars; }
  #   $ch = curl_init();
     #$fp = fopen($file.$url_qs, "w");
-    var_dump($base_url.$file.$url_qs);
+    #var_dump($base_url.$file.$url_qs); #die();
 #    var_dump(get_headers($base_url.$file.$url_qs));
 #    curl_setopt($ch, CURLOPT_FILE, $fp);
 #    curl_setopt($ch, CURLOPT_HEADER, 0);
@@ -79,6 +129,8 @@ function get_wikipedia_url($query_array){
 
 #var_dump($file);
 function does_it_json($file){
+   # var_dump($file);
+   # dump_log();
 $obj_file = json_decode($file);
  #var_dump($array_file);
     switch (json_last_error()) {
@@ -151,8 +203,8 @@ function wb_authors_finder($obj, $obj_id){
 
 function check_author_aliases_against($authors_obj, $author){
     foreach ($authors_obj as $obj) {
-        var_dump($obj->value);
-        var_dump('Checking: '.$author);
+        #var_dump($obj->value);
+        #var_dump('Checking: '.$author);
         $author_is = $obj->value;
         if ( $author == $author_is){
             return true;
@@ -223,7 +275,7 @@ function get_wikipedia_title_from_wikidata($id){
     #Fun fact P18 is title images!
     #$vars = 'action=wbgetentities&sites=frwiki&titles=France&languages=zh-hans|zh-hant|fr&props=sitelinks|labels|aliases|descriptions&format=json';
     $j = search_wikidata($vars);
-    var_dump($j->entities->$id->sitelinks->enwiki->title);
+    #var_dump($j->entities->$id->sitelinks->enwiki->title);
     return $j->entities->$id->sitelinks->enwiki->title;
 
 }
@@ -246,7 +298,8 @@ function get_wikipedia_description($title){
     #Fun fact P18 is title images!
     #$vars = 'action=wbgetentities&sites=frwiki&titles=France&languages=zh-hans|zh-hant|fr&props=sitelinks|labels|aliases|descriptions&format=json';
     $s = get_wikipedia_url($vars);
-    $j = search_wikidata($s); 
+    #var_dump($s);
+    $j = does_it_json($s); 
     #WHO THE HELL PUTS AN OBJECT ID INSIDE AN OBJECT THAT CAN ONLY BE ACCESSED BY ID?!
     foreach($j->query->pages as $page){
         $rs = $page->revisions;
@@ -297,7 +350,7 @@ function some_books_with_descriptions($file_contents){
 
 
 $file = file_get_contents('small_metadata.json');
-some_books_with_descriptions($file);
+#some_books_with_descriptions($file);
 
 $description = get_book_description('Moby Dick', 'Hermann Melville');
 
